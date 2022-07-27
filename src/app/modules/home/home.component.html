@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="py-5 text-center text-color">
+        <img class="d-block mx-auto" src="assets/imgs/logo-challenge-2go.png" alt="">
+        <h1>Challenge 2GO</h1>
+        <p class="lead">Digite um número e descubra se é esotérico, cético e/ou primo</p>
+    </div>
+    <div class="input-number">
+        <div class="webflow-style-input">
+          <form [formGroup]="formVerificarNumero" (ngSubmit)="verificarNumero">
+            <input  formControlName="numero" type="number" placeholder="Digite um número">
+          </form>
+        </div>
+    </div>
+    <div class="mx-auto">
+        <button type="button" [disabled]="formVerificarNumero.invalid" (click)="verificarNumero(formVerificarNumero.value.numero)" class="btn btn-primary btn-2go">Verificar</button>
+    </div>
+    <div class="py-5 text-center text-color-result">
+      <h2>{{resultado}}</h2>
+    </div>
+</div>
