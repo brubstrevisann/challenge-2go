@@ -24,5 +24,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Vercel
 
-Você pode visualizar e testar o projeto no Vercel através o layout do projeto no formato através [desse link](https://www.figma.com/file/3YHNUfCViLZyoU7bTvCr6x/Be-The-Hero-OmniStack-11?node-id=0%3A1). 
+Você pode visualizar e testar o projeto no Vercel através o layout do projeto no formato através [desse link](https://challenge-2go.vercel.app/home). 
 
