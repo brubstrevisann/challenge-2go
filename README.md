@@ -24,5 +24,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Vercel
 
-Você pode visualizar e testar o projeto no Vercel através o layout do projeto no formato através [desse link](https://challenge-2go.vercel.app/home). 
+Você pode visualizar e testar o projeto no Vercel através [desse link](https://challenge-2go.vercel.app/home). 
 
